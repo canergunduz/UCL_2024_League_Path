@@ -37,6 +37,7 @@ team_points = {
     "Lugano": 8.000,
     "Club Brugge": 64.000,
     "Rangers": 63.000,
+    "AZ": 50.000,
     "Slavia Prague": 53.000,
     "Salzburg": 50.000,
     "Brest": 13.366,
