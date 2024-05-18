@@ -52,7 +52,7 @@ team_points = {
 }
 
 # Dictionary mapping team names to logo file paths
-team_logos = {team: f"logos/{team.lower().replace(' ', '_')}.png" for team in team_points.keys()}
+team_logos = {team: f"logos/{team.replace(' ', '_')}.png" for team in team_points.keys()}
 
 with col1:
     option1 = st.selectbox(
