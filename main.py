@@ -64,10 +64,6 @@ with col1:
         "🇮🇹 Atalanta in Serie A?",
         ("Top 4", "5+"))
 
-    option2 = st.selectbox(
-        "🇨🇿 Czech Champion?",
-        ("Sparta Prague", "Slavia Prague"))
-
     option3 = st.selectbox(
         "🇦🇹 Austria Champion?",
         ("Sturm Graz", "Salzburg"))
@@ -122,8 +118,7 @@ with col2:
         ("Fenerbahce" if option9 == "Galatasaray" else "Galatasaray",
          team_points["Fenerbahce"] if option9 == "Galatasaray" else team_points["Galatasaray"]),
         (option8, team_points[option8]),
-        ("Sparta Prague" if option2 == "Slavia Prague" else "Slavia Prague",
-         team_points["Sparta Prague"] if option2 == "Slavia Prague" else team_points["Slavia Prague"]),
+        ("Slavia Prague", team_points["Slavia Prague"]),
         ("Sturm Graz" if option3 == "Salzburg" else "Salzburg",
          team_points["Sturm Graz"] if option3 == "Salzburg" else team_points["Salzburg"])
     ]
